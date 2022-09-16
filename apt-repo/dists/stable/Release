@@ -1,0 +1,21 @@
+Origin: VSTech Repository
+Label: VSTech
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64 arm64 arm7
+Components: main
+Description: A software repository by VSTech
+Date: Fri, 16 Sep 2022 12:49:34 +0000
+MD5Sum:
+  5ab20c6fcade62f37236abab33266386 224 apt-repo/dists/stable/Release
+  7db2bcae0744002f7cc81335743a7487 418 apt-repo/dists/stable/main/binary-amd64/Packages
+  857af07c3224420e12f7cb161fc49c93 324 apt-repo/dists/stable/main/binary-amd64/Packages.gz
+SHA1:
+  2dd29a02b9d8b03b462dc0b6d6e04f8d646cf87b 478 apt-repo/dists/stable/Release
+  06d9a1f6e1306acb89e382e0fc16a72b2266e96d 418 apt-repo/dists/stable/main/binary-amd64/Packages
+  7578dbff0153bb357e1e9c96d9dc32c96618165a 324 apt-repo/dists/stable/main/binary-amd64/Packages.gz
+SHA256:
+  9589b45ed0dc11978d843518c4ca952783a8ca49c45887dce2567983c88c34f9 758 apt-repo/dists/stable/Release
+  5252755da280413b24d2ddc284fdfa485e92ee3ee6ae452df79bebe005061d4f 418 apt-repo/dists/stable/main/binary-amd64/Packages
+  aafd1391134a2b7982a6d42fa57c8ce7181a7c4ce6662a593c3541fc1b31b902 324 apt-repo/dists/stable/main/binary-amd64/Packages.gz
