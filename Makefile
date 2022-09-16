@@ -4,6 +4,8 @@ scan:
 
 release:
 	./generate-release.sh > ./apt-repo/dists/stable/Release
+	cat apt-repo/dists/stable/Release | gpg --default-key "Vineel Sai" -abs > apt-repo/dists/stable/Release.gpg
+	cat apt-repo/dists/stable/Release | gpg --default-key "Vineel Sai" -abs --clearsign > apt-repo/dists/stable/InRelease
 
 clean:
 	rm ./*.deb

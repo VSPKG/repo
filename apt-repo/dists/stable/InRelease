@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: VSTech Repository
 Label: VSTech
 Suite: stable
@@ -25,3 +28,20 @@ SHA256:
   9d0fd80c3736bfdbe57a6937434c0796f03ac89d66f95d85787bf55228597cc5 1273 apt-repo/dists/stable/Release
   6416beb13a5eeeaf66b8dda79e4186e5ea213b31b6d09eb4f3aace4b84465999 424 apt-repo/dists/stable/main/binary-amd64/Packages
   5d985d8831d54b2b11c1112b165652bf23aa5c7f6386116345348dc80a05c057 325 apt-repo/dists/stable/main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEnDtVc7hyy97OIXR7RDHmRyO0rd4FAmMkd14THG1haWxAdmlu
+ZWVsc2FpLmNvbQAKCRBEMeZHI7St3oLnD/4p4oE5/unBgxOrY10gGZuFh36Q13nE
+mfXBJo5iPFPnELjkMuntFUuBtm5Ym1SI4hMZocP9ctBC1mer0ehyAsozDzPxUMwN
+kGTJSfLXBchIaLpJIARaaqNz8pbpj5dAouWxU2vVIgEI0HbytagjPik4zcx9Pfxl
+AIwC9Z2kJJHibC2RUyJdw9uN6Btt4bH3BAlss79/TCBhseff4KSMZwx7O2H+U4o7
+gpbxkwrC84vTKuN5fMIzDA3UA9AdwHTL/I9xV8juYDkFs8LEMP2SW1wsuTeo56+H
+GtigqbkMg0egF18yM/IzeA1DZu4Ku5ca6uiY91n2M9IdRtawRWuVlAeJSBSwO+Zo
+61udiqA5bT7ctvymXtE2bbO8uorRUGYft3dTuiw24NZoiD0NrJq2PWTING1wXcnz
+hNzcVcM3LNhnGHjXwKvsZjd1TuTZAdcdvyoVQ1fJfhuUbXXQnbW5Jm9jApEK7aas
+qpNlY2vDVQUdbdX9gzDwyS3vztdDSYVzcN2OKi8jUz6cA24iZr1Dm8D1Nfo4LLt7
+ORlVUFu+l7XA8BKkNuU6CIL8tfrBP95QxpdboJmcfI+lm8wGwiAFgw5UTZM3zqGR
+FsS31hOJ+9dvfS9rOVwEBjJJHzpqwlLhoftekTOt8r/mP8En02aMaDYPMUjsoBPs
+ff5bKL5obzhVhw==
+=81xL
+-----END PGP SIGNATURE-----
