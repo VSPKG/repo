@@ -22,10 +22,10 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  debian:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "apt.vineelsai.com"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,7 +36,26 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload apt-repo folder
-          path: 'apt-repo'
+          path: 'linux/debian/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+
+  frdoid:
+    environment:
+      name: github-pages
+      url: "fdroid.vineelsai.com"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload apt-repo folder
+          path: 'fdroid/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
