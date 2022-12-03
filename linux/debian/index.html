@@ -10,12 +10,12 @@
 
     <body>
         <p>
-            curl -fsSL https://api.vineelsai.com/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/vineelsai.gpg
+            curl -fsSL https://repo.vineelsai.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/vineelsai.gpg
         </p>
 
         <p>
             echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/vineelsai.gpg]
-            https://apt.vineelsai.com
+            https://repo.vineelsai.com/linux/debian
             stable" | sudo tee /etc/apt/sources.list.d/vineelsai.list > /dev/null
         </p>
     </body>
