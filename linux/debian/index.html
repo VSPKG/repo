@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Repo for Debian/Ubuntu</title>
+    </head>
+
+    <body>
+        <p>
+            curl -fsSL https://api.vineelsai.com/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/vineelsai.gpg
+        </p>
+
+        <p>
+            echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/vineelsai.gpg]
+            https://apt.vineelsai.com
+            stable" | sudo tee /etc/apt/sources.list.d/vineelsai.list > /dev/null
+        </p>
+    </body>
+
+</html>

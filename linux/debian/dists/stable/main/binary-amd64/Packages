@@ -1,0 +1,13 @@
+Package: hello-world
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Depends: libc6
+Filename: ../pool/main/hello-world_0.0.1-1_amd64.deb
+Size: 2584
+MD5sum: b921ab6cce2376656e7b3fff78a6a14c
+SHA1: 9eb9f0d5964464bae66d091bb4db3dce71f3573d
+SHA256: 0f6d8bacff07ca5f4f5c2afa4961264ad43cf418728b5f763a2b9ac189c941ce
+Homepage: https://apt.vineelsai.com
+Description: A program that prints hello
+

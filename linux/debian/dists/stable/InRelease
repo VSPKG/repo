@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: VSTech Repository
+Label: VSTech
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: A software repository by VSTech
+Date: Sat, 03 Dec 2022 12:16:55 +0000
+MD5Sum:
+  ce7e86d6ddb62927f563be5a9f21086a 418 dists/stable/main/binary-amd64/Packages
+  39ec5014273cc78fb4ad6496d6f8c61a 321 dists/stable/main/binary-amd64/Packages.gz
+  331bec6074bbeae8aec4ad16e535e1dd 374 dists/stable/Release
+  0667d8cf49ece7512eab89f225c2c35f 862 dists/stable/Release.gpg
+SHA1:
+  4b880080ac5fd945b59c25d1c20a6e42acb516e4 418 dists/stable/main/binary-amd64/Packages
+  7ed48540a4268a8ba63b86cd42583d9b513c2d3e 321 dists/stable/main/binary-amd64/Packages.gz
+  9e4ff60ee5fd9a0d8cc2bbd07d34d490dcac059b 681 dists/stable/Release
+  c88e78cbd0af11a8b61cfba16d45ca093a90915f 862 dists/stable/Release.gpg
+SHA256:
+  a8d31f6ff22321d4e9390cf6876cd218ec95bb08b7a7c4ab4ea55cc4dcf31991 418 dists/stable/main/binary-amd64/Packages
+  5adb604ad90e0b26ff527b43bc1a30f56b55ea3f578672f3159ae2fc3ce4f1b4 321 dists/stable/main/binary-amd64/Packages.gz
+  a2853a0fc1e0cc6d59f4248652afa9e910934bdcc5b74d2f6ecd7ad56cddfc19 1054 dists/stable/Release
+  13adc3151468a79da0e2825a549210132665bcfdb2542d5b77fa7b04888c7b93 862 dists/stable/Release.gpg
+SHA512:
+  7a61b6a6b21fbcad9b2fb11869bc442d5a3275f7b8d90147bdd054f5614843e4b2e11affa9ac12d648505696a9c47a4f184779a1e78a65692ad32f2fe47903e5 418 dists/stable/main/binary-amd64/Packages
+  8c8aec17f3f91d99461a118403abe09fb26964764ce03cc76ba87907b7098ea3dd1f8777d9e66aa44cf187bbbc1a3c63940a586f2da91b96ab15ab89aae82461 321 dists/stable/main/binary-amd64/Packages.gz
+  f201d34044c67b8a87e2c6cdd3a5f4873eafd3c5b62755002edaa817e768071db23c84ba09471035a039739123eee600a621635d6d9e298f4fa59ac085a617d4 1604 dists/stable/Release
+  274e6f8025eb528158de4d081a44da5656fd317069b3c6a1edafcf721e8135b9bd92ef3d0d40617e8a9e8cbd0a9a517aa3d0e5d3a7654b29683df58d506514e7 862 dists/stable/Release.gpg
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEnDtVc7hyy97OIXR7RDHmRyO0rd4FAmOLPjcTHG1haWxAdmlu
+ZWVsc2FpLmNvbQAKCRBEMeZHI7St3mrgEACdWx132Id3pG1u2pu+6l7xSJ/AAkya
+WgiCnFwPkkjQO3Zw9kxGgtwX2s7bfxVtZA/K2xlAa2emsNF4XyJGCkCW3X3OCqic
+dLNOgJLeJII7g7rHEHC/iK+MwXJ70zUjh0atHQY+VJLx3TJA34JH5GAqg99tntEp
+fEtGNU03RMtmweMsGhWqeZmjMX2WpZMtmRXMC23PxQGzLmF68pqc7pxdqaUVralR
+mCpIqzg30iDj8gYFvWxBadatTTUxk7o2XKHMSQJO6oAfnPWfyovg2DJ7MyAzuTas
+BiIrMJzuFwTo1NJhbMb6wXthxThRqKVHz8hpc/5pO4yZsCbhXaqihmbdA2cyQXk4
+8fBxdxmf35X3aR0dNaVIygWxuyycCsdYZ3KgI/Ku+saY5f0yXkeObjR4cq/cz3BN
+fcS5gyeurTa4M2sww3VE11EM+Mla7MzoT/DVUyE7cmqax+EZAZbpjaluXeCa6q74
+MpZ9NuxWu37cP4wnBAdKniuU56m6kyppeOPBA0kLQhfewIRsii1wdHydmI4N7FbU
+45tdrlUcqioK+fYDw8exvUB4W5XHwj0TKVO1Mix8NmvnXcf0qm+fCUHxHAn7pkKb
+rhlIj7s4GSYT9FamgVZv7KcZRwnZhci2YhMkma+RyGjE9YhczCqqfIkwzOFCbkcH
+eUIIJBycqnGktQ==
+=+bC7
+-----END PGP SIGNATURE-----
