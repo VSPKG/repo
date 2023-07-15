@@ -2,7 +2,7 @@ Package: checkout
 Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
-Filename: pool/main/checkout_0.0.1_amd64.deb
+Filename: ./pool/main/checkout_0.0.1_amd64.deb
 Size: 1985980
 MD5sum: 4df3304dbf29dcd8b04e3508b57248f9
 SHA1: 9886875d2b089728d5caec398faed4bf882e3753
@@ -14,7 +14,7 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Depends: libc6
-Filename: pool/main/hello-world_0.0.1-1_amd64.deb
+Filename: ./pool/main/hello-world_0.0.1-1_amd64.deb
 Size: 2584
 MD5sum: b921ab6cce2376656e7b3fff78a6a14c
 SHA1: 9eb9f0d5964464bae66d091bb4db3dce71f3573d
@@ -26,7 +26,7 @@ Package: rce
 Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
-Filename: pool/main/rce_0.0.1_amd64.deb
+Filename: ./pool/main/rce_0.0.1_amd64.deb
 Size: 5092860
 MD5sum: 3bb378af535fadb950df3e28ca1ca5f9
 SHA1: a7c55d902420c1591f4b68dd3b176df68b6a5b54
@@ -37,9 +37,10 @@ Package: vmn
 Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
-Filename: pool/main/vmn_0.0.1_amd64.deb
+Filename: ./pool/main/vmn_0.0.1_amd64.deb
 Size: 3697076
 MD5sum: 63575b9c7cc0d31f421a736faa250c72
 SHA1: 62d385a892db234d32b1f5f2fb843006b46348ad
 SHA256: 49fb7338bc768aef5876bd1131634d66977e960fb7afcfaa949a58264156fba8
 Description: A Program to manage Node.js versions
+
