@@ -1,3 +1,14 @@
+Package: checkout
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: ./pool/main/checkout_0.0.1_amd64.deb
+Size: 1985980
+MD5sum: 4df3304dbf29dcd8b04e3508b57248f9
+SHA1: 9886875d2b089728d5caec398faed4bf882e3753
+SHA256: 96f6acb02c4c2ef8ad525cf31d3ba5c3f7465d1529a95c64f0a4c39ccc73ad82
+Description: A Program to checkout to Projects in different directories to your workspace
+
 Package: hello-world
 Version: 0.0.1
 Architecture: amd64
@@ -11,14 +22,25 @@ SHA256: 0f6d8bacff07ca5f4f5c2afa4961264ad43cf418728b5f763a2b9ac189c941ce
 Homepage: https://apt.vineelsai.com
 Description: A program that prints hello
 
+Package: rce
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: ./pool/main/rce_0.0.1_amd64.deb
+Size: 5092860
+MD5sum: 3bb378af535fadb950df3e28ca1ca5f9
+SHA1: a7c55d902420c1591f4b68dd3b176df68b6a5b54
+SHA256: a7990e3056e4539b54d5eae1e47bca43570bdcff71d569d6fc859bffced6d430
+Description: A Program to manage Node.js versions
+
 Package: vmn
 Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: ./pool/main/vmn_0.0.1_amd64.deb
-Size: 3697732
-MD5sum: 09d404ccafc2739e1a150d856cc53f67
-SHA1: f2834902bc139e30d2aa2d466340b05645b2e647
-SHA256: f3e14caaace5e47844816d0fba805427305add5ec2b28d03dad017a6ae72fc9a
+Size: 3697076
+MD5sum: 63575b9c7cc0d31f421a736faa250c72
+SHA1: 62d385a892db234d32b1f5f2fb843006b46348ad
+SHA256: 49fb7338bc768aef5876bd1131634d66977e960fb7afcfaa949a58264156fba8
 Description: A Program to manage Node.js versions
 
