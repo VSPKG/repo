@@ -3,11 +3,22 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Depends: libc6
-Filename: ../pool/main/hello-world_0.0.1-1_amd64.deb
+Filename: ./pool/main/hello-world_0.0.1-1_amd64.deb
 Size: 2584
 MD5sum: b921ab6cce2376656e7b3fff78a6a14c
 SHA1: 9eb9f0d5964464bae66d091bb4db3dce71f3573d
 SHA256: 0f6d8bacff07ca5f4f5c2afa4961264ad43cf418728b5f763a2b9ac189c941ce
 Homepage: https://apt.vineelsai.com
 Description: A program that prints hello
+
+Package: vmn
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: ./pool/main/vmn_0.0.1_amd64.deb
+Size: 3697732
+MD5sum: 09d404ccafc2739e1a150d856cc53f67
+SHA1: f2834902bc139e30d2aa2d466340b05645b2e647
+SHA256: f3e14caaace5e47844816d0fba805427305add5ec2b28d03dad017a6ae72fc9a
+Description: A Program to manage Node.js versions
 

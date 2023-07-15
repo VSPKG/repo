@@ -18,14 +18,14 @@ do_hash() {
 }
 
 cat << EOF
-Origin: VSTech Repository
-Label: VSTech
+Origin: Vineel Sai Repository
+Label: Vineel Sai
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: A software repository by VSTech
+Description: A software repository by Vineel Sai
 Date: $(date -Ru)
 EOF
 do_hash "MD5Sum" "md5sum"
