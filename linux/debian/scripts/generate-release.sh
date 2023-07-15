@@ -13,7 +13,7 @@ do_hash() {
         if [ "$f" = "Release" ]; then
             continue
         fi
-        echo "  $(${HASH_CMD} ${f} | cut -d" " -f1) $(wc -c $f)"
+        echo "  $(${HASH_CMD} ${f} | cut -d" " -f1) $(echo "$(wc -c $f)" | sed "s/dists\/stable\///g")"
     done
 }
 

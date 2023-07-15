@@ -6,24 +6,24 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: A software repository by Vineel Sai
-Date: Sat, 15 Jul 2023 15:06:29 +0000
+Date: Sat, 15 Jul 2023 17:40:00 +0000
 MD5Sum:
-  06e5b0fd7357c383c06421aeb8b02f3d 1547 dists/stable/main/binary-amd64/Packages
-  76319b32e86ae8e329c49a91ad3d042a 717 dists/stable/main/binary-amd64/Packages.gz
-  7357e8c2a016ba945f5ea1376ca3dc0d 387 dists/stable/Release
-  9fea7decfb35016031bfb29afc64917c 862 dists/stable/Release.gpg
+  a4457ae7bebc90fb3da85e3f79521dca 1538 main/binary-amd64/Packages
+  76319b32e86ae8e329c49a91ad3d042a 717 main/binary-amd64/Packages.gz
+  ee01c4ff9fa7e724e7ec2548416b14c4 361 Release
+  f12149767118e5c829ccfb1d429827e4 862 Release.gpg
 SHA1:
-  9431c88900b498b485b12e0bf0f3463df213596c 1547 dists/stable/main/binary-amd64/Packages
-  a1e4612a6aa788700d84f2a07aa709239e2ea8b9 717 dists/stable/main/binary-amd64/Packages.gz
-  7c73e8d3951107bb4f9ce14d5c03d78d529a041e 695 dists/stable/Release
-  4436b4687e71605b8acfa3c152ecb7edb294822b 862 dists/stable/Release.gpg
+  efb140a360240c1dbb9986a3d4ed6b71388d501b 1538 main/binary-amd64/Packages
+  a1e4612a6aa788700d84f2a07aa709239e2ea8b9 717 main/binary-amd64/Packages.gz
+  07c1fac416193c43d9b5483ab7bcebb94432d33b 617 Release
+  fbf6d84c79985e8510a278f9fb6c4d01f88da01c 862 Release.gpg
 SHA256:
-  4ace24975aa333fa0fc038f33c1f850587a7cff794b47c3dda1fc542284283f7 1547 dists/stable/main/binary-amd64/Packages
-  8232afa6e6f670cce5119e848687efba3c36d2620bbe609b2194fe6cb66a63bc 717 dists/stable/main/binary-amd64/Packages.gz
-  31bb1f4e3493777b336d33676c268e2e5fd0220904f4f831256f01e7db248d0c 1069 dists/stable/Release
-  a7abfb32535340a39dd758116f9bafe18d279850d85109a47b1347f3fe276b53 862 dists/stable/Release.gpg
+  b6b2454f9903d41c805342ac9f7bc04ac82676662d5f36f4359563a1a13ee67b 1538 main/binary-amd64/Packages
+  8232afa6e6f670cce5119e848687efba3c36d2620bbe609b2194fe6cb66a63bc 717 main/binary-amd64/Packages.gz
+  a67ff5a281fd7321afa70831c1c57d0ce75877b69dd20c9712a3524c0cc848a2 939 Release
+  1b49438053b5bbb958cb276126ec52e0b231b2341e958a8743f5c398db4a4374 862 Release.gpg
 SHA512:
-  0489e7217c94e49ffc5283c39c0369b816cf6b68e9743f9c520525b1108a8eec3fe27af2bdb4c58ac52187759e1e37109a070ae13da37eebb1644a56ae71cdc8 1547 dists/stable/main/binary-amd64/Packages
-  88e142e2f408763878a64cbbf325899e57c8255d06c8ed61f99ba96aa1f6490044bb9c664aec8335c7fa6ac9aaa4a5ed93655fe61d00e70db5495ea0ec76a6a6 717 dists/stable/main/binary-amd64/Packages.gz
-  f8b9c627c238b4b7174162c77f370ef6b60d317304f8c714aaff958ad1fe12d54238ef2c101495f1e1afecd4f4d1eb7eabbbb3a141847f3c7e23e8d7a86c518a 1620 dists/stable/Release
-  78a4665124ba39502ff1b975f101368f752c4422da5ee82e7c722a9c3e237784b8d993eb574bf38912d637ee49c5dee7591167aedea1c6ef28d44d7e62766cf8 862 dists/stable/Release.gpg
+  23edbe10fc1063a06ddb98702d06ada19265f3b1d10aa89519a85800ee03c7e4f024319e01976bd46c55cd9622ac2d595684dd89d64cab98488d574fb6f550f4 1538 main/binary-amd64/Packages
+  88e142e2f408763878a64cbbf325899e57c8255d06c8ed61f99ba96aa1f6490044bb9c664aec8335c7fa6ac9aaa4a5ed93655fe61d00e70db5495ea0ec76a6a6 717 main/binary-amd64/Packages.gz
+  2879e6c6130971ef335540306283fc1ddc0cf8baee5e5f2c78cff9992b0429860e2dc1f56072f8b44f815a0161dbfc88d7f8f7867a1c3397cb1e171ccd78b06f 1437 Release
+  a0532da996baceacf8fed5d6c497b1738b9792d32a10fa0125c012f4534f2a2b528cfadb38635cdff62b18c66c2b4005b0ae7bfa47e51c25fdb6ab26a12d46c7 862 Release.gpg
