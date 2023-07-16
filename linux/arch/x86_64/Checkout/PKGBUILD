@@ -1,0 +1,34 @@
+# Maintainer: Vineel Sai <mail@vineelsai.com>
+pkgname='checkout'
+pkgver=0.0.1
+pkgrel=1
+epoch=
+pkgdesc="A Program to manage Node.js versions"
+arch=("x86_64")
+url="https://vineelsai.com"
+license=('MIT')
+groups=()
+depends=()
+makedepends=('git' 'go')
+checkdepends=()
+optdepends=()
+provides=(checkout)
+conflicts=()
+replaces=()
+backup=()
+options=()
+changelog=
+source=("git+https://github.com/vineelsai26/$pkgname.git")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+build() {
+    cd "$pkgname"
+    go build
+}
+
+package() {
+	cd "$pkgname"
+    install -Dm755 "$pkgname" "${pkgdir}/usr/bin/${pkgname}"
+}
