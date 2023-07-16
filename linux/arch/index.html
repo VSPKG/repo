@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Repo for Arch Linux</title>
+    </head>
+
+    <body>
+        <p>
+            Add the following to <code>/etc/pacman.conf</code>:
+        </p>
+        <code>
+            [vineelsai-arch-repo] <br>
+            Server = https://repo.vineelsai.com/linux/arch/$arch
+        </code>
+
+        <p>
+            Then run:
+        </p>
+        <code>
+            sudo pacman-key --lsign-key 4431E64723B4ADDE
+        </code>
+    </body>
+
+</html>
