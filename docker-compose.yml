@@ -3,5 +3,5 @@ services:
   debian:
     build: .
     volumes:
-      - ./linux/debain:/home/build
-    command: bash -c "ls && cd /home/build && ls && make generate"
+      - ./linux/debian:/home/build/repo
+    command: bash -c "cd /home/build/repo && make generate"

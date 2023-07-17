@@ -1,4 +1,5 @@
 generate:
+	mkdir -p build
 	sh scripts/rce-build.sh
 	sh scripts/vmn-build.sh
 	sh scripts/checkout-build.sh
