@@ -2,6 +2,7 @@ generate:
 	sh scripts/rce-build.sh
 	sh scripts/vmn-build.sh
 	sh scripts/checkout-build.sh
+	sh scripts/neovim-build.sh
 
 scan:
 	dpkg-scanpackages --arch amd64 ./pool/ > ./dists/stable/main/binary-amd64/Packages

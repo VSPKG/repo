@@ -1,0 +1,7 @@
+version: '3'
+services:
+  debian:
+    build: .
+    volumes:
+      - ./linux/debain:/home/build
+    command: bash -c "ls && cd /home/build && ls && make generate"
