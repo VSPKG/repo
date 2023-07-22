@@ -1,6 +1,6 @@
-metadata
 tmp
 repo/status
+repo/diff
 srclibs
 config.yml
 keystore.p12

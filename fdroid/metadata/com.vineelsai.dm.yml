@@ -1,0 +1,15 @@
+AuthorName: 'Vineel Sai'
+Categories:
+- Internet
+CurrentVersionCode: 1
+IssueTracker: 'https://github.com/VSPlayStore/Direct-Message/issues'
+Name: Direct Message
+SourceCode: 'https://github.com/VSPlayStore/Direct-Message'
+Summary: ''
+WebSite: 'https://vineelsai.com'
+License: MIT
+Repo: 'https://github.com/VSPlayStore/Direct-Message.git'
+RepoType: git
+Builds:
+- versionName: Initial Release
+  versionCode: 1

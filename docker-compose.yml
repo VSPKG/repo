@@ -1,5 +1,12 @@
 version: '3'
 services:
+  fdroid:
+    build:
+      dockerfile: Dockerfile.fdroid
+    volumes:
+      - ./fdroid:/home/build/repo
+    command: bash entrypoint.sh
+
   debian:
     build:
       dockerfile: Dockerfile.debian

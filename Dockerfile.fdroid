@@ -1,0 +1,12 @@
+FROM vineelsai/debian:latest
+
+RUN apt update
+RUN apt upgrade -y
+RUN apt install -y fdroidserver
+
+RUN useradd -ms /bin/bash build
+RUN mkdir -p /home/build
+USER build
+WORKDIR /home/build
+
+COPY entrypoint.fdroid.sh entrypoint.sh
