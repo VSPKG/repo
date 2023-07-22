@@ -5,7 +5,10 @@ services:
       dockerfile: Dockerfile.debian
     volumes:
       - ./linux/debian:/home/build/repo
-    command: bash -c "cd /home/build/repo && make generate"
+      - ./gpg-private-key.asc:/home/build/gpg-private-key.asc
+    env_file:
+      - .env
+    command: bash entrypoint.sh
 
   arch:
     build:

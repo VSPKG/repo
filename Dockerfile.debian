@@ -9,4 +9,4 @@ RUN mkdir -p /home/build
 USER build
 WORKDIR /home/build
 
-CMD [ "make", "generate" ]
+COPY entrypoint.debian.sh entrypoint.sh
