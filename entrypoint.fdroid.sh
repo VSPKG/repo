@@ -1,3 +1,3 @@
 cd /home/build/repo
 
-fdroid update -c
+fdroid update --create-metadata
