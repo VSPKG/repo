@@ -20,7 +20,6 @@ clean:
 	rm -rf build
 
 deploy:
-	rm -rf build
 	rm -rf scripts
 	rm .gitignore
 	rm Makefile
