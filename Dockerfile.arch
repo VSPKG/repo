@@ -1,0 +1,11 @@
+FROM vineelsai/arch:latest
+
+RUN pacman -Syu --noconfirm
+RUN pacman -S --noconfirm -y go git cmake unzip curl wget base-devel
+
+RUN useradd -ms /bin/bash build
+RUN mkdir -p /home/build
+USER build
+WORKDIR /home/build
+
+COPY entrypoint.arch.sh entrypoint.sh

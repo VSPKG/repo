@@ -1,7 +1,18 @@
 version: '3'
 services:
   debian:
-    build: .
+    build:
+      dockerfile: Dockerfile.debian
     volumes:
       - ./linux/debian:/home/build/repo
     command: bash -c "cd /home/build/repo && make generate"
+
+  arch:
+    build:
+      dockerfile: Dockerfile.arch
+    volumes:
+      - ./linux/arch:/home/build/repo
+      - ./gpg-private-key.asc:/home/build/gpg-private-key.asc
+    env_file:
+      - .env
+    command: bash entrypoint.sh
