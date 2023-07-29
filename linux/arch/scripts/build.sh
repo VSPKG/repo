@@ -23,3 +23,19 @@ makepkg --clean --force --sign
 cp *.pkg.tar.zst ../../x86_64
 cp *.pkg.tar.zst.sig ../../x86_64
 cd ..
+
+# build VMN
+cd DWM
+rm -rf pkg src suckless
+makepkg --clean --force --sign
+cp *.pkg.tar.zst ../../x86_64
+cp *.pkg.tar.zst.sig ../../x86_64
+cd ..
+
+# build VMN
+cd DMENU
+rm -rf pkg src suckless
+makepkg --clean --force --sign
+cp *.pkg.tar.zst ../../x86_64
+cp *.pkg.tar.zst.sig ../../x86_64
+cd ..

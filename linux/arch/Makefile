@@ -4,7 +4,10 @@ build:
 release:
 	sh scripts/release.sh
 
-deploy:
+clean:
+	find packages/*/* -type f -not -name 'PKGBUILD' -delete
+
+predeploy:
 	rm -rf scripts
 	rm -rf packages
 	rm .gitignore

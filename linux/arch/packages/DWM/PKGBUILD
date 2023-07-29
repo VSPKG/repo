@@ -1,0 +1,34 @@
+# Maintainer: Vineel Sai <mail@vineelsai.com>
+pkgname='dwm'
+pkgver=0.0.1
+pkgrel=1
+epoch=
+pkgdesc="dwm is an extremely fast, small, and dynamic window manager for X."
+arch=("x86_64")
+url="https://vineelsai.com"
+license=('MIT')
+groups=()
+depends=()
+makedepends=('git' 'base-devel')
+checkdepends=()
+optdepends=()
+provides=(dwm)
+conflicts=()
+replaces=()
+backup=()
+options=()
+changelog=
+source=("git+https://github.com/vineelsai26/suckless.git")
+noextract=()
+md5sums=('SKIP')
+validpgpkeys=()
+
+build() {
+    cd "suckless/$pkgname"
+    make all
+}
+
+package() {
+	cd "suckless/$pkgname"
+    install -Dm755 "$pkgname" "${pkgdir}/usr/bin/${pkgname}"
+}

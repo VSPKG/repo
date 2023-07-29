@@ -21,7 +21,7 @@ release:
 clean:
 	rm -rf build
 
-deploy:
+predeploy:
 	rm -rf scripts
 	rm .gitignore
 	rm Makefile

@@ -9,11 +9,11 @@ rm vercel.json
 
 # clean up files that are not needed for deployment on debian repo
 cd linux/debian
-make deploy
+make predeploy
 cd ../..
 
 # clean up files that are not needed for deployment on arch repo
 cd linux/arch
-make deploy
+make predeploy
 
 rm -f predeploy.sh
