@@ -1,9 +1,11 @@
 generate:
 	mkdir -p build
-	sh scripts/rce-build.sh
-	sh scripts/vmn-build.sh
-	sh scripts/checkout-build.sh
-	sh scripts/neovim-build.sh
+	sh scripts/rce.build.sh
+	sh scripts/vmn.build.sh
+	sh scripts/checkout.build.sh
+	sh scripts/neovim.build.sh
+	sh scripts/dwm.build.sh
+	sh scripts/dmenu.build.sh
 
 scan:
 	dpkg-scanpackages --arch amd64 pool/ > dists/stable/main/binary-amd64/Packages
@@ -12,7 +14,7 @@ scan:
 release:
 	rm -rf dists/stable/Release
 	rm -rf dists/stable/InRelease
-	sh scripts/generate-release.sh > dists/stable/Release
+	sh scripts/generate.release.sh > dists/stable/Release
 	cat dists/stable/Release | gpg --default-key "Vineel Sai" -abs --passphrase ${GPG_PRIVATE_KEY_PASSWORD} > dists/stable/Release.gpg
 	cat dists/stable/Release | gpg --default-key "Vineel Sai" -abs --clearsign --passphrase ${GPG_PRIVATE_KEY_PASSWORD} > dists/stable/InRelease
 
