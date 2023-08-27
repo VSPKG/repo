@@ -5,7 +5,7 @@ release:
 	sh scripts/release.sh
 
 clean:
-	find packages/*/* -type f -not -name 'PKGBUILD' -delete
+	sh scripts/clean.sh
 
 predeploy:
 	rm -rf scripts

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd x86_64
 rm -rf *.db.*
 rm -rf *.db

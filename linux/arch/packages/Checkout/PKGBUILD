@@ -1,6 +1,6 @@
 # Maintainer: Vineel Sai <mail@vineelsai.com>
 pkgname='checkout'
-pkgver=0.0.1
+pkgver=r10.508f479
 pkgrel=1
 epoch=
 pkgdesc="A simple CLI tool to Checkout code I store in different folders to a folder I edit them in"
@@ -22,6 +22,11 @@ source=("git+https://github.com/vineelsai26/$pkgname.git")
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
+
+pkgver() {
+    cd "$pkgname"
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+}
 
 build() {
     cd "$pkgname"

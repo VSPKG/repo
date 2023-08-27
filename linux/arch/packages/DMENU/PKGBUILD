@@ -1,6 +1,6 @@
 # Maintainer: Vineel Sai <mail@vineelsai.com>
 pkgname='dmenu'
-pkgver=0.0.1
+pkgver=r3.0877ddb
 pkgrel=1
 epoch=
 pkgdesc="dmenu is an efficient dynamic menu for X."
@@ -22,6 +22,11 @@ source=("git+https://github.com/vineelsai26/suckless.git")
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
+
+pkgver() {
+    cd "suckless"
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+}
 
 build() {
     cd "suckless/$pkgname"

@@ -1,6 +1,6 @@
 # Maintainer: Vineel Sai <mail@vineelsai.com>
 pkgname='vmn'
-pkgver=0.0.1
+pkgver=r39.64cc213
 pkgrel=1
 epoch=
 pkgdesc="A Program to manage Node.js versions"
@@ -22,6 +22,11 @@ source=("git+https://github.com/vineelsai26/$pkgname.git")
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
+
+pkgver() {
+    cd "$pkgname"
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short=7 HEAD)"
+}
 
 build() {
     cd "$pkgname"
