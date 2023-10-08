@@ -1,6 +1,6 @@
 # Maintainer: Vineel Sai <mail@vineelsai.com>
 pkgname='checkout'
-pkgver=r10.508f479
+pkgver=r11.e20cabd
 pkgrel=1
 epoch=
 pkgdesc="A simple CLI tool to Checkout code I store in different folders to a folder I edit them in"

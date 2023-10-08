@@ -5,8 +5,8 @@ if [ -d "neovim" ]; then
     git checkout stable
 else
     git clone https://github.com/neovim/neovim
-    git checkout stable
     cd neovim
+    git checkout stable
 fi
 
 make CMAKE_BUILD_TYPE=Release

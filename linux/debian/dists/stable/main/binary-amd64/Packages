@@ -3,10 +3,10 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/checkout_0.0.1_amd64.deb
-Size: 1985492
-MD5sum: 6ff5e07d1e08894bbc55a3ec0a55f90b
-SHA1: ecf4036958938257f3b93b15f6b64a4a7f2a29f4
-SHA256: 7ea48f63b8a0172b692224763a3c640615b9053858914cbe492cd8c2d3b66e0a
+Size: 1985564
+MD5sum: 2526982ae97fe752c9acb8b76f52246b
+SHA1: 1cb81f5d7923716362193288209647a45b3344ad
+SHA256: 97ba1290cae0b8bf9e806d9b0d7a29805cc471aa24ae99491dab09864aa26d7e
 Description: A Program to checkout to Projects in different directories to your workspace
 
 Package: dmenu
@@ -14,10 +14,10 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/dmenu_0.0.1_amd64.deb
-Size: 13708
-MD5sum: 2aa1fe808980b29d102c47972bf8fb23
-SHA1: bac0d1f8bede87d789dce375673c6a345f2a4e87
-SHA256: a56c1b5c04bde08a1dda6d472135865d595b26361f6fb73aa8b6f0a3a5686af9
+Size: 13544
+MD5sum: 4c9e685b9124e8ea2459dcb0240c29f1
+SHA1: 09e36d97d1fdbba64f67fdb5e470a50e7c536dba
+SHA256: ba80654470f701185c4092e03065bcdf5135c0d0df63b6d97902fe4f3b645ff9
 Description: dmenu is an efficient dynamic menu for X.
 
 Package: dwm
@@ -25,10 +25,10 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/dwm_0.0.1_amd64.deb
-Size: 23580
-MD5sum: 5600deb460124339cb7b4f0f72e64f3f
-SHA1: 10bbc33cefc94e4f660a6a066ddac7e0c579b05c
-SHA256: bbc5c81e1f0dff5e5588e8032acaf272b411c338b35844dafe5e9b831e4246c0
+Size: 23352
+MD5sum: 38c981eeea3da44888cf8ace78490d2b
+SHA1: 317a8c4d0032210045651612550b6ff3b09752a2
+SHA256: 9c2309c704ff5817e4cc0c33f00f5ccc5144f2692309af7116677dddb5ba5645
 Description: dwm is an extremely fast, small, and dynamic window manager for X.
 
 Package: hello-world
@@ -45,16 +45,16 @@ Homepage: https://apt.vineelsai.com
 Description: A program that prints hello
 
 Package: neovim
-Version: 0.9.1
+Version: 0.10.0
 Architecture: amd64
 Maintainer: Neovim.io
-Installed-Size: 33431
+Installed-Size: 36425
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3)
-Filename: pool/main/nvim_0.9.1_amd64.deb
-Size: 10905736
-MD5sum: 8e59eaa08c3b88e621651da9168a4420
-SHA1: d415a422241f049dc3a175b0e69c651115a54dee
-SHA256: 6031d16e7d417a89143dcf6ed82956bbc71660efb4f232525204755836c8bd79
+Filename: pool/main/nvim_nightly_amd64.deb
+Size: 11895318
+MD5sum: fec01d70cfe1708d599d432fb683c0b6
+SHA1: 90c761d69d17f03f80cc94729a2bcd6bf399c0f5
+SHA256: 17f82caf86e0cd06581502bd9f299c5eeeb44d7ff1f68f4227f420d0a4d33b91
 Section: devel
 Priority: optional
 Description: Vim-fork focused on extensibility and usability.
@@ -64,20 +64,20 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/rce_0.0.1_amd64.deb
-Size: 5093184
-MD5sum: ebd6a74e1f9b4da6206719d821cabe15
-SHA1: b88afdb7c7413f0b8059603bb5e6731653d9e54d
-SHA256: 5ae3d1bc38126f6b3dc3d4f043d7b6bd5244c4a462cf868e9ea5f48e0def7399
+Size: 5092984
+MD5sum: 39d507f3e4b6e8e41623dfeb0404deeb
+SHA1: 971c7d24b1a561bf994e6ab14240652e42c29ef9
+SHA256: e7a319129202e1c622563ecebf07ddaf7e59163f49e40856e823dc2dbad3e420
 Description: A Program to manage Node.js versions
 
 Package: vmn
-Version: 0.0.1
+Version: 0.2.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
-Filename: pool/main/vmn_0.0.1_amd64.deb
-Size: 3697320
-MD5sum: aea411bbf1821c9243ba58e164881f5c
-SHA1: f329fadfd3d17d5db58b0e7f740ed8da8208aa79
-SHA256: 4d125e5e1d8802346da65ce59b0b5c8e1c0c586c26b38b5a7352b52239efa8b5
+Filename: pool/main/vmn_0.2.1_amd64.deb
+Size: 3716916
+MD5sum: 31493a8ee175015adf003663a49c3057
+SHA1: d93b94150c3059611928216c326b0df0f16542c9
+SHA256: 0ae83af37968be4d7f11ef4a9a5d49fbbb771ca09757193915461a8c849e07ff
 Description: A Program to manage Node.js versions
 
