@@ -1,4 +1,4 @@
-FROM vineelsai/debian:latest
+FROM vineelsai/debian
 
 RUN apt update
 RUN apt upgrade -y

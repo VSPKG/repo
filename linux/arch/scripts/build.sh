@@ -1,45 +1,47 @@
 #!/bin/bash
 
+CPU_ARCH=$(uname -m)
+
 cd packages
 
 # build Checkout
 cd Checkout
 rm -rf pkg src checkout
 makepkg --clean --force --sign
-cp *.pkg.tar.zst ../../x86_64
-cp *.pkg.tar.zst.sig ../../x86_64
+cp *.pkg.tar.zst ../../${CPU_ARCH}
+cp *.pkg.tar.zst.sig ../../${CPU_ARCH}
 cd ..
 
 # build RCE
 cd RCE
 rm -rf pkg src rce
 makepkg --clean --force --sign
-cp *.pkg.tar.zst ../../x86_64
-cp *.pkg.tar.zst.sig ../../x86_64
+cp *.pkg.tar.zst ../../${CPU_ARCH}
+cp *.pkg.tar.zst.sig ../../${CPU_ARCH}
 cd ..
 
 # build VMN
 cd VMN
 rm -rf pkg src vmn
 makepkg --clean --force --sign
-cp *.pkg.tar.zst ../../x86_64
-cp *.pkg.tar.zst.sig ../../x86_64
+cp *.pkg.tar.zst ../../${CPU_ARCH}
+cp *.pkg.tar.zst.sig ../../${CPU_ARCH}
 cd ..
 
 # build DWM
 cd DWM
 rm -rf pkg src suckless
 makepkg --clean --force --sign
-cp *.pkg.tar.zst ../../x86_64
-cp *.pkg.tar.zst.sig ../../x86_64
+cp *.pkg.tar.zst ../../${CPU_ARCH}
+cp *.pkg.tar.zst.sig ../../${CPU_ARCH}
 cd ..
 
 # build DMENU
 cd DMENU
 rm -rf pkg src suckless
 makepkg --clean --force --sign
-cp *.pkg.tar.zst ../../x86_64
-cp *.pkg.tar.zst.sig ../../x86_64
+cp *.pkg.tar.zst ../../${CPU_ARCH}
+cp *.pkg.tar.zst.sig ../../${CPU_ARCH}
 cd ..
 
 # build yay
@@ -52,7 +54,7 @@ sed -i PKGBUILD \
     -e '/^conflicts=/a \conflicts+=(yay-git yay-bin)' \
     -e '/^package() {$/a \  rm -f ../${pkgname}_${pkgver}_$CARCH.tar.gz'
 makepkg --clean --force --sign
-cp *.pkg.tar.zst ../../x86_64
-cp *.pkg.tar.zst.sig ../../x86_64
+cp *.pkg.tar.zst ../../${CPU_ARCH}
+cp *.pkg.tar.zst.sig ../../${CPU_ARCH}
 cd ..
 rm -rf yay

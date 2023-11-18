@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd x86_64
+CPU_ARCH=$(uname -m)
+
+cd ${CPU_ARCH}
 rm -rf *.db.*
 rm -rf *.db
 rm -rf *.files.*

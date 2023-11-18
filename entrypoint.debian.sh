@@ -16,6 +16,7 @@ gpg-connect-agent reloadagent /bye
 echo "$GPG_PRIVATE_KEY_PASSWORD" | gpg --pinentry-mode loopback --passphrase-fd 0 --sign ~/.gnupg/gpg.conf
 
 cd repo
+make clean
 make generate
 make scan
 make release

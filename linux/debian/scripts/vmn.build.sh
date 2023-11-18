@@ -1,3 +1,5 @@
+CPU_ARCH=$(dpkg --print-architecture)
+
 cd build
 if [ -d "VMN" ]; then
     cd VMN
@@ -11,15 +13,15 @@ VERSION="$(git tag --sort=committerdate | tail -1 | cut -c2-)"
 
 CONTROL="Package: vmn
 Version: ${VERSION}
-Architecture: amd64
+Architecture: ${CPU_ARCH}
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Description: A Program to manage Node.js versions
 "
 
 go build -buildvcs=false
-mkdir -p vmn_${VERSION}_amd64/usr/local/bin && mkdir -p vmn_${VERSION}_amd64/DEBIAN
-cp vmn vmn_${VERSION}_amd64/usr/local/bin
-printf "$CONTROL" > vmn_${VERSION}_amd64/DEBIAN/control
-chmod -R 0775 vmn_${VERSION}_amd64
-dpkg-deb --build --root-owner-group vmn_${VERSION}_amd64
-cp vmn_${VERSION}_amd64.deb ../../pool/main
+mkdir -p vmn_${VERSION}_${CPU_ARCH}/usr/local/bin && mkdir -p vmn_${VERSION}_${CPU_ARCH}/DEBIAN
+cp vmn vmn_${VERSION}_${CPU_ARCH}/usr/local/bin
+printf "$CONTROL" > vmn_${VERSION}_${CPU_ARCH}/DEBIAN/control
+chmod -R 0775 vmn_${VERSION}_${CPU_ARCH}
+dpkg-deb --build --root-owner-group vmn_${VERSION}_${CPU_ARCH}
+cp vmn_${VERSION}_${CPU_ARCH}.deb ../../pool/main

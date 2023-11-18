@@ -6,6 +6,7 @@ services:
     volumes:
       - ./fdroid:/home/build/repo
     command: bash entrypoint.sh
+    platform: linux/amd64
 
   debian:
     build:
@@ -16,6 +17,7 @@ services:
     env_file:
       - .env
     command: bash entrypoint.sh
+    platform: linux/amd64
 
   arch:
     build:
@@ -26,3 +28,4 @@ services:
     env_file:
       - .env
     command: bash entrypoint.sh
+    platform: linux/amd64

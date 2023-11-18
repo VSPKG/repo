@@ -1,4 +1,4 @@
-FROM vineelsai/arch:latest
+FROM vineelsai/arch
 
 RUN pacman -Syu --noconfirm
 RUN pacman -S --noconfirm -y go git cmake unzip curl wget base-devel libx11 libxft libxinerama

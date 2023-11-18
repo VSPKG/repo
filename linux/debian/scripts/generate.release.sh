@@ -23,7 +23,7 @@ Label: Vineel Sai
 Suite: stable
 Codename: stable
 Version: 1.0
-Architectures: amd64
+Architectures: amd64, arm64
 Components: main
 Description: A software repository by Vineel Sai
 Date: $(date -Ru)
