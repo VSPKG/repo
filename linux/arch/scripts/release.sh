@@ -1,8 +1,10 @@
 #!/bin/bash
 
-cd x86_64
+CPU_ARCH=$(uname -m)
+
+cd ${CPU_ARCH}
 rm -rf *.db.*
 rm -rf *.db
 rm -rf *.files.*
 rm -rf *.files
-repo-add --sign --new --remove vineelsai-arch-repo.db.tar.gz *.pkg.tar.zst
+repo-add --sign --new --remove vineelsai-arch-repo.db.tar.gz
