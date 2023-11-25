@@ -17,7 +17,7 @@ do_hash() {
     done
 }
 
-cat << EOF
+cat <<EOF
 Origin: Vineel Sai Repository
 Label: Vineel Sai
 Suite: stable

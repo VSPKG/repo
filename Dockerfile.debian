@@ -3,6 +3,7 @@ FROM vineelsai/debian
 RUN apt update
 RUN apt upgrade -y
 RUN apt install -y golang git ninja-build gettext cmake unzip curl wget file dpkg-dev libxinerama-dev fontconfig libxft-dev
+RUN update-ca-certificates
 
 RUN useradd -ms /bin/bash build
 RUN mkdir -p /home/build

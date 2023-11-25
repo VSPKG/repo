@@ -16,10 +16,12 @@ else
     git clone https://github.com/vineelsai26/RCE
     cd RCE
 fi
+
 go build -buildvcs=false
+
 mkdir -p rce_${VERSION}_${CPU_ARCH}/usr/local/bin && mkdir -p rce_${VERSION}_${CPU_ARCH}/DEBIAN
 cp rce rce_${VERSION}_${CPU_ARCH}/usr/local/bin
-printf "$CONTROL" > rce_${VERSION}_${CPU_ARCH}/DEBIAN/control
+printf "$CONTROL" >rce_${VERSION}_${CPU_ARCH}/DEBIAN/control
 chmod -R 0775 rce_${VERSION}_${CPU_ARCH}
 dpkg-deb --build --root-owner-group rce_${VERSION}_${CPU_ARCH}
 cp rce_${VERSION}_${CPU_ARCH}.deb ../../pool/main

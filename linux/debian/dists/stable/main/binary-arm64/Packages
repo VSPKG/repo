@@ -1,0 +1,48 @@
+Package: checkout
+Version: 0.0.1
+Architecture: arm64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/checkout_0.0.1_arm64.deb
+Size: 1806968
+MD5sum: 5c3f2ad7fecc8f98e5261164e686b416
+SHA1: 5cebb484a324c041e769536d82aa8fe93fe06518
+SHA256: 8839d1b69c624efb9b08092a0e2df1ddf0275eff5c013fd40521cdf0b745d8ef
+Description: A Program to checkout to Projects in different directories to your workspace
+
+Package: neovim
+Version: 0.9.4
+Architecture: arm64
+Maintainer: Neovim.io
+Installed-Size: 32162
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: pool/main/nvim_0.9.4_arm64.deb
+Size: 10610916
+MD5sum: 1aa0c4c14cbf2b19f0d9134cb261d218
+SHA1: 2d03b58bcc7b8cfc72ddeb44fbe1542146faee6f
+SHA256: 3e56b5dbc213158dc77a71de25a7e44d45bc68de831194bce204789d0485c1c9
+Section: devel
+Priority: optional
+Description: Vim-fork focused on extensibility and usability.
+
+Package: rce
+Version: 0.0.1
+Architecture: arm64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/rce_0.0.1_arm64.deb
+Size: 4635528
+MD5sum: 9af142a084b7cb786c108e0effd99300
+SHA1: 710d8051d7903ebf5d5b389e8ced642e44ceb0fa
+SHA256: b2cb6690d3aea5751aacfe9c6ef6a0cebac77a0f53c44d8addddf191a85905d9
+Description: A Program to manage Node.js versions
+
+Package: vmn
+Version: 0.2.4
+Architecture: arm64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/vmn_0.2.4_arm64.deb
+Size: 3395260
+MD5sum: 720bbd19406c12d6af0adc0bf1f50434
+SHA1: 4e380e6030ee526b40b33a0ebe4e9abb60a0ed1c
+SHA256: e892be8d474346676ab45f899dcd0b501cf04a9189b5eabbed0e5b856879904a
+Description: A Program to manage Node.js versions
+

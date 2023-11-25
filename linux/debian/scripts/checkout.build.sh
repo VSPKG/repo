@@ -16,10 +16,12 @@ else
     git clone https://github.com/vineelsai26/Checkout
     cd Checkout
 fi
+
 go build -buildvcs=false
+
 mkdir -p checkout_${VERSION}_${CPU_ARCH}/usr/local/bin && mkdir -p checkout_${VERSION}_${CPU_ARCH}/DEBIAN
 cp checkout checkout_${VERSION}_${CPU_ARCH}/usr/local/bin
-printf "$CONTROL" > checkout_${VERSION}_${CPU_ARCH}/DEBIAN/control
+printf "$CONTROL" >checkout_${VERSION}_${CPU_ARCH}/DEBIAN/control
 chmod -R 0775 checkout_${VERSION}_${CPU_ARCH}
 dpkg-deb --build --root-owner-group checkout_${VERSION}_${CPU_ARCH}
 cp checkout_${VERSION}_${CPU_ARCH}.deb ../../pool/main
