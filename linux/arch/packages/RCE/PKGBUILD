@@ -1,10 +1,10 @@
 # Maintainer: Vineel Sai <mail@vineelsai.com>
 pkgname='rce'
-pkgver=r105.77bdac4
+pkgver=r115.14ef17e
 pkgrel=1
 epoch=
 pkgdesc="Remote Code Execution engine in Go"
-arch=("x86_64")
+arch=("x86_64" "aarch64")
 url="https://vineelsai.com"
 license=('MIT')
 groups=()
