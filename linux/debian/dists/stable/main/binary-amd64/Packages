@@ -3,24 +3,11 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/checkout_0.0.1_amd64.deb
-Size: 1985896
-MD5sum: 4f794fbb6914b93a5b93a3fa3ed9470d
-SHA1: 3fa0354b048784a757eeb93807946aec2d93907a
-SHA256: 820d65e104ba60a64fa75e67021ee5d47fefd1590a9b6e5c51ebf421df7b437d
+Size: 1985668
+MD5sum: 85a8113d8a5e232de93d480878cb7e5e
+SHA1: ae8ab468b73ff8dfc944654f9aee5edf4a9a1443
+SHA256: 434b805fec2eedf580833a620a425063479ed4303ea302289858a8d9ae94cf0c
 Description: A Program to checkout to Projects in different directories to your workspace
-
-Package: hello-world
-Version: 0.0.1
-Architecture: amd64
-Maintainer: Vineel Sai <mail@vineelsai.com>
-Depends: libc6
-Filename: pool/main/hello-world_0.0.1-1_amd64.deb
-Size: 2584
-MD5sum: b921ab6cce2376656e7b3fff78a6a14c
-SHA1: 9eb9f0d5964464bae66d091bb4db3dce71f3573d
-SHA256: 0f6d8bacff07ca5f4f5c2afa4961264ad43cf418728b5f763a2b9ac189c941ce
-Homepage: https://apt.vineelsai.com
-Description: A program that prints hello
 
 Package: neovim
 Version: 0.9.4
@@ -29,10 +16,10 @@ Maintainer: Neovim.io
 Installed-Size: 31714
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3)
 Filename: pool/main/nvim_0.9.4_amd64.deb
-Size: 10663634
-MD5sum: 54481269fff0b870b3548bdb3b6f18a2
-SHA1: 770b435c6354744c0baa9910c42996c7e04cfe64
-SHA256: b2b31cea7d8373ba902126e85006a5b2f6c56dbb45df375a83a73c97c187f700
+Size: 10663728
+MD5sum: 5dd4ae0423644f9ffe12fd51bf081aa2
+SHA1: 52c29aeebbf482a34b9678d3ad87c8fea7fa18f0
+SHA256: 9f83b50a0b9aa940546cd5fdee57fb297eaa2ee05cad3f2e5f99e349620fb298
 Section: devel
 Priority: optional
 Description: Vim-fork focused on extensibility and usability.
@@ -42,10 +29,10 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/rce_0.0.1_amd64.deb
-Size: 5092648
-MD5sum: d0224c7632b649ec5b646a034f0cc955
-SHA1: 5f079d4c244fea60a3ee407ac7c8fec5252ee84c
-SHA256: 56d2abdd43eabdcb731d4420953dce2dbcdb8afc9b9a898f47b8fcbbc7596254
+Size: 5092628
+MD5sum: 1c1336ef02cce6e183e0bda802ebb0f0
+SHA1: 92a634de832d62ed5a7c3bed9b2d42a09fa3b8ab
+SHA256: a4ffb9bd928162b5b4e084ba2df2436ddf80990a2dfb84e1c95ebfec9a3aaef8
 Description: A Program to manage Node.js versions
 
 Package: vmn
@@ -53,9 +40,9 @@ Version: 0.2.4
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/vmn_0.2.4_amd64.deb
-Size: 3719496
-MD5sum: d5d65d3f6c1191901beb99abb70201e4
-SHA1: 729f4a8189d9d8dd5985fecfb86d45cf0aecb24e
-SHA256: ce84222fd9afabcf7c218e41f0b184ae50543ff07ee2713c896a261420a38492
+Size: 3719348
+MD5sum: fb20f4f6bb819c44e4d7560391e4639a
+SHA1: 1d688a1fcb854c1ebd7c4c7c5dfbda9a4545f9d3
+SHA256: 41dcd1e6735e6113f6614cb80d912ad69c870f6d4aa44a1e52d874fd5da00513
 Description: A Program to manage Node.js versions
 

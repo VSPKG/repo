@@ -8,4 +8,4 @@ RUN mkdir -p /home/build
 USER build
 WORKDIR /home/build
 
-COPY entrypoint.arch.sh entrypoint.sh
+COPY scripts/entrypoint.arch.sh entrypoint.sh
