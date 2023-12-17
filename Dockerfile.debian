@@ -10,4 +10,4 @@ RUN mkdir -p /home/build
 USER build
 WORKDIR /home/build
 
-COPY entrypoint.debian.sh entrypoint.sh
+COPY scripts/entrypoint.debian.sh entrypoint.sh

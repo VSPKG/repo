@@ -21,7 +21,7 @@ services:
     env_file:
       - .env
     command: bash entrypoint.sh
-    platform: linux/arm64
+    platform: linux/amd64
 
   arch:
     build:

@@ -3,10 +3,10 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/checkout_0.0.1_arm64.deb
-Size: 1806968
-MD5sum: 5c3f2ad7fecc8f98e5261164e686b416
-SHA1: 5cebb484a324c041e769536d82aa8fe93fe06518
-SHA256: 8839d1b69c624efb9b08092a0e2df1ddf0275eff5c013fd40521cdf0b745d8ef
+Size: 1806664
+MD5sum: 03b56d77a4590a730a24b43fee5592e4
+SHA1: 63f7b3c9b6c73b96584c5eb7625d4945936f4ef1
+SHA256: e4cc579d202c809acd2b890f207dbb4685ec4af1b2935dbf9c0f4457b6dccf0d
 Description: A Program to checkout to Projects in different directories to your workspace
 
 Package: neovim
@@ -16,10 +16,10 @@ Maintainer: Neovim.io
 Installed-Size: 32162
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Filename: pool/main/nvim_0.9.4_arm64.deb
-Size: 10610916
-MD5sum: 1aa0c4c14cbf2b19f0d9134cb261d218
-SHA1: 2d03b58bcc7b8cfc72ddeb44fbe1542146faee6f
-SHA256: 3e56b5dbc213158dc77a71de25a7e44d45bc68de831194bce204789d0485c1c9
+Size: 10611030
+MD5sum: da487b6820fbf007645e4891f1cad6b2
+SHA1: 1d594843c988454bfa837c305f1fad73b7add442
+SHA256: fdeae274318dd276ce5097bca11fbfc6df052edeb17a19e04749071b53f4b2d0
 Section: devel
 Priority: optional
 Description: Vim-fork focused on extensibility and usability.
@@ -29,10 +29,10 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/rce_0.0.1_arm64.deb
-Size: 4635528
-MD5sum: 9af142a084b7cb786c108e0effd99300
-SHA1: 710d8051d7903ebf5d5b389e8ced642e44ceb0fa
-SHA256: b2cb6690d3aea5751aacfe9c6ef6a0cebac77a0f53c44d8addddf191a85905d9
+Size: 4636472
+MD5sum: ea03241f5d09ea8ebc38ae20078e9aff
+SHA1: 4164b5fc913a3210c25600e3e49e7d7233554460
+SHA256: d385cc4f591f839311394c09d1f643ec9d1a36afa84a9be385dbd2c047a26afc
 Description: A Program to manage Node.js versions
 
 Package: vmn
@@ -40,9 +40,9 @@ Version: 0.2.4
 Architecture: arm64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/vmn_0.2.4_arm64.deb
-Size: 3395260
-MD5sum: 720bbd19406c12d6af0adc0bf1f50434
-SHA1: 4e380e6030ee526b40b33a0ebe4e9abb60a0ed1c
-SHA256: e892be8d474346676ab45f899dcd0b501cf04a9189b5eabbed0e5b856879904a
+Size: 3395356
+MD5sum: 2f59998822b27800f766c2574c0be021
+SHA1: 71e2420612027603e5fbc96ae9f1d96fe1af7d02
+SHA256: b4a19c8290c8206ed5b20cd84accd9bc40e8fb032f0208bb55685aa288d7ef27
 Description: A Program to manage Node.js versions
 
