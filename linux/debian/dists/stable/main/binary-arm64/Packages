@@ -3,11 +3,25 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/checkout_0.0.1_arm64.deb
-Size: 1806664
-MD5sum: 03b56d77a4590a730a24b43fee5592e4
-SHA1: 63f7b3c9b6c73b96584c5eb7625d4945936f4ef1
-SHA256: e4cc579d202c809acd2b890f207dbb4685ec4af1b2935dbf9c0f4457b6dccf0d
+Size: 1806952
+MD5sum: 0b27290e3be3e468a4d5f4b3539bf48e
+SHA1: e3b90929f3734060b0a01bd72980b10c90626bc8
+SHA256: cbef391dc26bb3d9cb5383763e7fa37efa3a25ff17dbe3bf87567c982a909113
 Description: A Program to checkout to Projects in different directories to your workspace
+
+Package: eza
+Version: 0.17.0
+Architecture: arm64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Depends: libc6
+Filename: pool/main/eza_0.17.0_arm64.deb
+Size: 614352
+MD5sum: 579423e245b4f14cd17219a1abd2e529
+SHA1: 74015a1109155a6b537a91c9676ed0ba11813b86
+SHA256: a19c3f51f82547fda15fb40a9a90b3db81d33a7178b5fa26dcfdf20bbc72273b
+Section: utils
+Priority: optional
+Description: eza is a modern replacement for ls.
 
 Package: neovim
 Version: 0.9.4
@@ -16,10 +30,10 @@ Maintainer: Neovim.io
 Installed-Size: 32162
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Filename: pool/main/nvim_0.9.4_arm64.deb
-Size: 10611030
-MD5sum: da487b6820fbf007645e4891f1cad6b2
-SHA1: 1d594843c988454bfa837c305f1fad73b7add442
-SHA256: fdeae274318dd276ce5097bca11fbfc6df052edeb17a19e04749071b53f4b2d0
+Size: 10611112
+MD5sum: 039209acce32978f119063a64262caf9
+SHA1: 965e2cc1482dbd7140f6c827d26bad53e4281e1c
+SHA256: 73187f57943e3f1b416577d4ccd02dffc2ff48cecf84856d900cc0b0ca046445
 Section: devel
 Priority: optional
 Description: Vim-fork focused on extensibility and usability.
@@ -29,10 +43,10 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/rce_0.0.1_arm64.deb
-Size: 4636472
-MD5sum: ea03241f5d09ea8ebc38ae20078e9aff
-SHA1: 4164b5fc913a3210c25600e3e49e7d7233554460
-SHA256: d385cc4f591f839311394c09d1f643ec9d1a36afa84a9be385dbd2c047a26afc
+Size: 4635552
+MD5sum: 0fbb63f2547b3b0f7a3d86517111ffc4
+SHA1: c6db49c4977ffbebe9e0824730c620d1e6ad4c54
+SHA256: daed5462fb4f5db256f0523fedf4225ad1da8e57cea1d20c364d3ab5af6d3838
 Description: A Program to manage Node.js versions
 
 Package: vmn
@@ -40,9 +54,9 @@ Version: 0.2.4
 Architecture: arm64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/vmn_0.2.4_arm64.deb
-Size: 3395356
-MD5sum: 2f59998822b27800f766c2574c0be021
-SHA1: 71e2420612027603e5fbc96ae9f1d96fe1af7d02
-SHA256: b4a19c8290c8206ed5b20cd84accd9bc40e8fb032f0208bb55685aa288d7ef27
+Size: 3395860
+MD5sum: 300f7c57fa3f31ea291c7ab1ba60f12f
+SHA1: 10c3db8f2efcf6c3efc27159efd0e5e058b024b2
+SHA256: 3d221ae8524c8bb366fa3bf48a63ab25a35e027bfca0840602cf062b7084f2c3
 Description: A Program to manage Node.js versions
 

@@ -9,7 +9,7 @@ else
     cd VMN
 fi
 
-VERSION="$(git tag --sort=committerdate | tail -1 | cut -c2-)"
+VERSION="$(git describe --tags --abbrev=0 | cut -c2-)"
 
 CONTROL="Package: vmn
 Version: ${VERSION}
