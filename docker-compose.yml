@@ -8,6 +8,7 @@ services:
     volumes:
       - ./fdroid:/home/build/repo
     command: bash entrypoint.sh
+    platform: linux/amd64
 
   debian:
     build:
