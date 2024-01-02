@@ -1,0 +1,17 @@
+AuthorName: "Vineel Sai"
+Categories:
+  - System
+  - Security
+CurrentVersionCode: 1
+License: MIT
+Repo: "https://github.com/VSPlayStore/Root-Checker.git"
+RepoType: git
+IssueTracker: "https://github.com/VSPlayStore/Root-Checker/issues"
+Name: Root Checker
+SourceCode: "https://github.com/VSPlayStore/Root-Checker"
+Summary: "Root and Play Integrity Checker"
+WebSite: "https://vineelsai.com"
+UpdateCheckData: ""
+Builds:
+  - versionName: Initial Release
+    versionCode: 1

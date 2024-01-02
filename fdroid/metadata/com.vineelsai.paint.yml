@@ -1,14 +1,15 @@
-AuthorName: 'Vineel Sai'
+AuthorName: "Vineel Sai"
 Categories:
-- Science & Education
+  - Science & Education
 CurrentVersionCode: 2
-IssueTracker: 'https://github.com/VSPlayStore/Paint/issues'
+IssueTracker: "https://github.com/VSPlayStore/Paint/issues"
 Name: Paint
-SourceCode: 'https://github.com/VSPlayStore/Paint'
-WebSite: 'https://vineelsai.com'
+SourceCode: "https://github.com/VSPlayStore/Paint"
+WebSite: "https://vineelsai.com"
 License: MIT
-Repo: 'https://github.com/VSPlayStore/Paint.git'
+Repo: "https://github.com/VSPlayStore/Paint.git"
 RepoType: git
+UpdateCheckData: ""
 Builds:
-- versionName: Initial Release
-  versionCode: 2
+  - versionName: Initial Release
+    versionCode: 2
