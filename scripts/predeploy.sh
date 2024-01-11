@@ -1,20 +1,24 @@
-# clean up files that are not needed for deployment
-rm -rf .devcontainer
-rm -f .gitignore
-rm -rf .git
-rm -f docker-compose.yml
-rm -f Dockerfile.*
-rm -f entrypoint.*.sh
-rm vercel.json
-rf .editorconfig
-
-# clean up files that are not needed for deployment on debian repo
+# predeploy cleanup for debian repo
 cd linux/debian
 make predeploy
 cd ../..
 
-# clean up files that are not needed for deployment on arch repo
+# predeploy cleanup for arch repo
 cd linux/arch
 make predeploy
+cd ../..
 
-rm -f predeploy.sh
+# clean up files that are not needed for deployment
+rm -f .gitignore
+rm -f docker-compose.yml
+rm -f Dockerfile.*
+rm -f entrypoint.*.sh
+rm -f vercel.json
+rm -f .editorconfig
+rm -f Makefile
+
+# clean up folders that are not needed for deployment
+rm -rf scripts
+rm -rf .github
+rm -rf .devcontainer
+rm -rf .git
