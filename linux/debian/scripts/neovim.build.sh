@@ -10,6 +10,7 @@ else
     cd neovim
     git checkout stable
 fi
+git config --global --add safe.directory /home/build/repo/build/neovim
 
 make CMAKE_BUILD_TYPE=Release
 
