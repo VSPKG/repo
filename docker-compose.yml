@@ -1,10 +1,11 @@
-version: '3'
+version: "3"
 services:
   fdroid:
     build:
       dockerfile: Dockerfile.fdroid
       platforms:
         - linux/amd64
+        - linux/arm64
     volumes:
       - ./fdroid:/home/build/repo
     command: bash entrypoint.sh

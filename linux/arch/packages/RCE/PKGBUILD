@@ -1,6 +1,6 @@
 # Maintainer: Vineel Sai <mail@vineelsai.com>
 pkgname='rce'
-pkgver=r119.3776655
+pkgver=r125.65d1c22
 pkgrel=1
 epoch=
 pkgdesc="Remote Code Execution engine in Go"
