@@ -1,6 +1,6 @@
 FROM vineelsai/arch
 
-RUN pacman -Syu --noconfirm
+RUN pacman -Syyu --noconfirm
 RUN pacman -S --noconfirm -y go git cmake unzip curl wget base-devel libx11 libxft libxinerama
 
 RUN useradd -ms /bin/bash build
