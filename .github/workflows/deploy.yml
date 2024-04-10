@@ -2,6 +2,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -25,10 +28,17 @@ jobs:
         run: |
           sh scripts/predeploy.sh
 
+      - name: "DRY RUN: Copy files to the production website with the AWS CLI"
+        if: github.base_ref != 'refs/heads/main'
+        run: |
+          aws s3 sync . s3://repo.vineelsai.com --dryrun
+
       - name: Copy files to the production website with the AWS CLI
+        if: github.base_ref == 'refs/heads/main'
         run: |
           aws s3 sync . s3://repo.vineelsai.com
 
       - name: Invalidate CloudFront cache
+        if: github.base_ref == 'refs/heads/main'
         run: |
           aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
