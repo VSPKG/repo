@@ -45,10 +45,10 @@ jobs:
 
       - name: Build Python
         run: |
-          vmn python install 3.12.3
-          vmn python install 3.11.9
-          vmn python install 3.10.14
-          vmn python install 3.9.19
+          vmn --compile python install 3.12.3
+          vmn --compile python install 3.11.9
+          vmn --compile python install 3.10.14
+          vmn --compile python install 3.9.19
 
       - name: "DRY RUN: Upload Python package to S3"
         if: github.base_ref != 'refs/heads/main'
