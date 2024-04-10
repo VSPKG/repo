@@ -51,7 +51,7 @@ jobs:
           vmn --compile python install 3.9.19
 
       - name: "DRY RUN: Upload Python package to S3"
-        if: github.base_ref != 'refs/heads/main'
+        if: github.ref_name != 'refs/heads/main'
         run: |
           cd $HOME/.vmn/python/v3.12.3/ && tar -czvf python-3.12.3.tar.gz * && aws s3 cp python-3.12.3.tar.gz s3://repo.vineelsai.com/linux/generic/amd64/ --dryrun
           cd $HOME/.vmn/python/v3.11.9/ && tar -czvf python-3.11.9.tar.gz * && aws s3 cp python-3.11.9.tar.gz s3://repo.vineelsai.com/linux/generic/amd64/ --dryrun
@@ -59,7 +59,7 @@ jobs:
           cd $HOME/.vmn/python/v3.9.19/ && tar -czvf python-3.9.19.tar.gz * && aws s3 cp python-3.9.19.tar.gz s3://repo.vineelsai.com/linux/generic/amd64/ --dryrun
 
       - name: Upload Python package to S3
-        if: github.base_ref == 'refs/heads/main'
+        if: github.ref_name == 'refs/heads/main'
         run: |
           cd $HOME/.vmn/python/v3.12.3/ && tar -czvf python-3.12.3.tar.gz * && aws s3 cp python-3.12.3.tar.gz s3://repo.vineelsai.com/linux/generic/amd64/
           cd $HOME/.vmn/python/v3.11.9/ && tar -czvf python-3.11.9.tar.gz * && aws s3 cp python-3.11.9.tar.gz s3://repo.vineelsai.com/linux/generic/amd64/
