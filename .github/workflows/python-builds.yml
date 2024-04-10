@@ -40,7 +40,7 @@ jobs:
         run: |
           git clone https://github.com/vineelsai26/VMN.git
           cd VMN
-          go build -v ./...
+          go build
           cp vmn /usr/local/bin/vmn
 
       - name: Build Python
