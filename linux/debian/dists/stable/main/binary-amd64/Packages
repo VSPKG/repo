@@ -3,22 +3,22 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/checkout_0.0.1_amd64.deb
-Size: 1985620
-MD5sum: 6ca5186c3db19a60707454b0cf9241ff
-SHA1: 8ccaf72b49337ffc0e54e73661cac96679e83add
-SHA256: 73cb3b263990b069435c54f9b59e89eb3dfd655efff7a032993ce813a214a90f
+Size: 2313832
+MD5sum: 956b166ceaf0db4bdcbd5d5c8515ca50
+SHA1: fe05d0f71031452d4a411d50e8cd9c8695bf906d
+SHA256: 8207797c07906c36147da2e3c02e0fc2a6399205a09a1e09353e3e31edb474a0
 Description: A Program to checkout to Projects in different directories to your workspace
 
 Package: eza
-Version: 0.18.10
+Version: 0.18.13
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Depends: libc6
-Filename: pool/main/eza_0.18.10_amd64.deb
-Size: 704892
-MD5sum: fe1ca7c76d96aacc2faff1fd4084f2a3
-SHA1: 729ba7d5ab552b5fe60c24a10ccd2a1c2956d6c7
-SHA256: 26542d1942836fa1d6b96b8d4aa6cb79ee2505cbeb30956c436be8283a7793e5
+Filename: pool/main/eza_0.18.13_amd64.deb
+Size: 749886
+MD5sum: 3809bb79389075dda020f2107237721f
+SHA1: 18bfce1e55273bf975569988e31db958842337be
+SHA256: 78a39a73afa39127eed796c2d1fdce01f8040ba14f35314100ab7e06e5a51649
 Section: utils
 Priority: optional
 Description: eza is a modern replacement for ls.
@@ -27,13 +27,13 @@ Package: neovim
 Version: 0.9.5
 Architecture: amd64
 Maintainer: Neovim.io
-Installed-Size: 31680
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3)
+Installed-Size: 31783
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3)
 Filename: pool/main/nvim_0.9.5_amd64.deb
-Size: 10660328
-MD5sum: d7a203825f4717bba131e8b223191918
-SHA1: 4f0915ffdd5627cd6bd4d3e29b90c4a994d13d1d
-SHA256: c9857dc2de4734bdc454f66030f4aa8c771cedbbbf6a2cd063ede48ac21794ae
+Size: 10679112
+MD5sum: b2cff0663e889adf2f406d677eb197d6
+SHA1: 9a63c1b932b7709ec569bd7cd9e7c4533eb2e1ed
+SHA256: 613301a267de4b0ba02e1db43dabf19e609ea1246c75eb1343b903bfb4b2d716
 Section: devel
 Priority: optional
 Description: Vim-fork focused on extensibility and usability.
@@ -43,20 +43,20 @@ Version: 0.0.1
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
 Filename: pool/main/rce_0.0.1_amd64.deb
-Size: 5381460
-MD5sum: 2df8b5097954865146130b5ff7213288
-SHA1: 70d3faf82b25f803cb66d44de8b8881d8164ed5f
-SHA256: 035ef2509cd91ad764b873226b283a90baa2a4a0f65ca077a335740543649056
+Size: 5144640
+MD5sum: 6d81cd585b5c7a56d69d206fbf485797
+SHA1: 1f5ceff712f666090aeaeac0846f932dc57de82d
+SHA256: 9c150faaf25886d8aa60be6d5909f5ccffd026203c0f5f3b8ec8bd96d114200b
 Description: A Program to manage Node.js versions
 
 Package: vmn
-Version: 0.2.4
+Version: 0.3.3
 Architecture: amd64
 Maintainer: Vineel Sai <mail@vineelsai.com>
-Filename: pool/main/vmn_0.2.4_amd64.deb
-Size: 3737752
-MD5sum: 1cc9093412d9bf1d5dfe5915efc0fb20
-SHA1: fe2e1ab4490d20b1a9ceff59077a7a993d33f31e
-SHA256: 559c7c2fda4bd509985753e92324c12df6694e5a793a93782051a799efa24601
+Filename: pool/main/vmn_0.3.3_amd64.deb
+Size: 4213722
+MD5sum: 04a9f0aaafb7e4fdc8d2b457f1c0b59e
+SHA1: 5add9d2a92f7d2f50c2507b44d3b0cc61dff4b75
+SHA256: 3ac02ea6d6b3cd24c461a1234a4292243f6ec0def47e7acfc8bcd4042f6c9019
 Description: A Program to manage Node.js versions
 
