@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 CPU_ARCH=$(dpkg --print-architecture)
 
 cd build

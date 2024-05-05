@@ -1,28 +1,33 @@
 #!/bin/bash
+set -e
 
 CPU_ARCH=$(uname -m)
 
+mkdir -p packages
 cd packages
 
 # build Checkout
-cd Checkout
-rm -rf pkg src checkout
+rm -rf pkgbuild.checkout
+git clone https://github.com/VSPKG/pkgbuild.checkout.git
+cd pkgbuild.checkout
 makepkg --clean --force --sign
 cp *.pkg.tar.* ../../${CPU_ARCH}/
 cp *.pkg.tar.*.sig ../../${CPU_ARCH}/
 cd ..
 
 # build RCE
-cd RCE
-rm -rf pkg src rce
+rm -rf pkgbuild.rce
+git clone https://github.com/VSPKG/pkgbuild.rce.git
+cd pkgbuild.rce
 makepkg --clean --force --sign
 cp *.pkg.tar.* ../../${CPU_ARCH}/
 cp *.pkg.tar.*.sig ../../${CPU_ARCH}/
 cd ..
 
 # build VMN
-cd VMN
-rm -rf pkg src vmn
+rm -rf pkgbuild.vmn
+git clone https://github.com/VSPKG/pkgbuild.vmn.git
+cd pkgbuild.vmn
 makepkg --clean --force --sign
 cp *.pkg.tar.* ../../${CPU_ARCH}/
 cp *.pkg.tar.*.sig ../../${CPU_ARCH}/

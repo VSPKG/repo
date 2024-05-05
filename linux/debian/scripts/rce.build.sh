@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 VERSION="0.0.1"
 CPU_ARCH=$(dpkg --print-architecture)
 
