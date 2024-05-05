@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 CPU_ARCH=$(dpkg --print-architecture)
 
 dpkg-scanpackages --arch ${CPU_ARCH} pool/ >dists/stable/main/binary-${CPU_ARCH}/Packages

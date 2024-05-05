@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 REPO_URL="https://github.com/eza-community/eza"
 NAME="eza"
