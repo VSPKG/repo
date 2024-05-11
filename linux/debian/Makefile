@@ -1,3 +1,5 @@
+all: generate scan release clean
+
 generate:
 	mkdir -p build
 	sh scripts/checkout.build.sh

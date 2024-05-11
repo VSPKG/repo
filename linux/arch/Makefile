@@ -1,3 +1,5 @@
+all: build release clean
+
 build:
 	sh scripts/build.sh
 
