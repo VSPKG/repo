@@ -7,7 +7,7 @@ release:
 	sh scripts/release.sh
 
 clean:
-	sh scripts/clean.sh
+	rm -rf packages
 
 predeploy:
 	rm -rf scripts
