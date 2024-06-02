@@ -6,15 +6,6 @@ CPU_ARCH=$(uname -m)
 mkdir -p packages
 cd packages
 
-# build AWS CLI
-rm -rf pkgbuild.aws-cli
-git clone https://github.com/VSPKG/pkgbuild.aws-cli.git
-cd pkgbuild.aws-cli
-makepkg --clean --force --sign
-cp *.pkg.tar.* ../../${CPU_ARCH}/
-cp *.pkg.tar.*.sig ../../${CPU_ARCH}/
-cd ..
-
 # build Checkout
 rm -rf pkgbuild.checkout
 git clone https://github.com/VSPKG/pkgbuild.checkout.git
