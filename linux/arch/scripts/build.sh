@@ -33,6 +33,15 @@ cp *.pkg.tar.* ../../${CPU_ARCH}/
 cp *.pkg.tar.*.sig ../../${CPU_ARCH}/
 cd ..
 
+# build VMP
+rm -rf pkgbuild.vmp
+git clone https://github.com/VSPKG/pkgbuild.vmp.git
+cd pkgbuild.vmp
+makepkg --clean --force --sign
+cp *.pkg.tar.* ../../${CPU_ARCH}/
+cp *.pkg.tar.*.sig ../../${CPU_ARCH}/
+cd ..
+
 # build yay
 mkdir -p yay
 cd yay
