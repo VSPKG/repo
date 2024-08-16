@@ -1,11 +1,12 @@
-all: generate scan release clean
+all: clean generate scan release clean
 
 generate:
 	mkdir -p build
 	sh scripts/checkout.build.sh
 	sh scripts/eza.build.sh
-	sh scripts/rce.build.sh
+	# sh scripts/rce.build.sh
 	sh scripts/vmn.build.sh
+	sh scripts/vmp.build.sh
 	sh scripts/neovim.build.sh
 
 scan:

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Repo for Ubuntu</title>
+    </head>
+
+    <body>
+        <p>
+            Run the following commands:
+        </p>
+        <code>
+            curl -fsSL https://repo.vineelsai.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/vineelsai.gpg
+        </code>
+
+        <br><br>
+
+        <code>
+            echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/vineelsai.gpg]
+            https://repo.vineelsai.com/linux/ubuntu
+            stable main" | sudo tee /etc/apt/sources.list.d/vineelsai.list > /dev/null
+        </code>
+    </body>
+
+</html>

@@ -1,0 +1,73 @@
+Package: checkout
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/checkout_0.0.1_amd64.deb
+Size: 2313852
+MD5sum: ebb9d9a805e64c880791b72848907534
+SHA1: 689cc232e5dcd682ac571a5fc66b257dbf771ba3
+SHA256: cc4b93ff01305d8bfeea1612e43486b7b70f42766f65d4bb54cdc2f5452f45de
+Description: A Program to checkout to Projects in different directories to your workspace
+
+Package: eza
+Version: 0.19.0
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Depends: libc6
+Filename: pool/main/eza_0.19.0_amd64.deb
+Size: 766114
+MD5sum: b40480b206711d3845950a9e6a4621d9
+SHA1: cb8c0a453aed23ae8e5a7b43d219ce1fa9589b59
+SHA256: 95d218614380b2ade04d12fbd043763fafe94caaf5792fe6749ac448fbc81dff
+Section: utils
+Priority: optional
+Description: eza is a modern replacement for ls.
+
+Package: neovim
+Version: 0.10.1
+Architecture: amd64
+Maintainer: Neovim.io
+Installed-Size: 36064
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4)
+Filename: pool/main/nvim_0.10.1_amd64.deb
+Size: 12036032
+MD5sum: 8b2e414ef2abbd82339d7bbc6abd8c70
+SHA1: a2554b5447bf27f937037260e287c6bbd368be9a
+SHA256: d4e7beadea48851d768dbc902ae59dbc7548e94e97a80ea66f1f0d548d9bcb8c
+Section: devel
+Priority: optional
+Description: Vim-fork focused on extensibility and usability.
+
+Package: rce
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/rce_0.0.1_amd64.deb
+Size: 5407372
+MD5sum: 789cad84a80a8a3f2775da0ca719d13c
+SHA1: c2f7c20a0484c6f376d0b1c5ec068abe6a6856d0
+SHA256: 9cf845e94045d4e2d0531427d0ca2bf515c1450aa8c5e271f639a98c5d14f12b
+Description: A Program to manage Node.js versions
+
+Package: vmn
+Version: 0.3.4
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/vmn_0.3.4_amd64.deb
+Size: 4184690
+MD5sum: c2bf6b362aeb835dbb93c358cce1f84f
+SHA1: 206c6e802cd1607b12bce0ef55b12f4b4ac3548d
+SHA256: 27c7e2d7c24199db7fbd6c8937dbd64a419067a50e60e144354f092ba8a153f9
+Description: A Program to manage Node.js versions
+
+Package: vmp
+Version: 0.1.1
+Architecture: amd64
+Maintainer: Vineel Sai <mail@vineelsai.com>
+Filename: pool/main/vmp_0.1.1_amd64.deb
+Size: 3446870
+MD5sum: d95cd85d2c8d680e661ceab5f3a0ffa1
+SHA1: 001d9f7ee485a6c64b86839ba533a7af6ad5adf5
+SHA256: d2c5f7abd8523d5e687920dc0ff63045c1603a7a0b67c1a678c2162578030cde
+Description: A Program to manage Python versions
+

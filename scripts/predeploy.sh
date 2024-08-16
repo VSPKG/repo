@@ -3,6 +3,11 @@ cd linux/debian
 make predeploy
 cd ../..
 
+# predeploy cleanup for debian repo
+cd linux/ubuntu
+make predeploy
+cd ../..
+
 # predeploy cleanup for arch repo
 cd linux/arch
 make predeploy

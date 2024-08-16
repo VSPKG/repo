@@ -9,8 +9,20 @@ services:
   debian:
     build:
       dockerfile: Dockerfile.debian
+    platform: linux/amd64
     volumes:
       - ./linux/debian:/home/build/repo
+      - ./gpg-private-key.asc:/home/build/gpg-private-key.asc
+    env_file:
+      - .env
+    command: bash entrypoint.sh
+
+  ubuntu:
+    build:
+      dockerfile: Dockerfile.ubuntu
+    platform: linux/amd64
+    volumes:
+      - ./linux/ubuntu:/home/build/repo
       - ./gpg-private-key.asc:/home/build/gpg-private-key.asc
     env_file:
       - .env
@@ -19,6 +31,7 @@ services:
   arch:
     build:
       dockerfile: Dockerfile.arch
+    platform: linux/amd64
     volumes:
       - ./linux/arch:/home/build/repo
       - ./gpg-private-key.asc:/home/build/gpg-private-key.asc

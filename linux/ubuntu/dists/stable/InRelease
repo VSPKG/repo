@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Vineel Sai Repository
+Label: Vineel Sai
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64, arm64
+Components: main
+Description: A software repository by Vineel Sai
+Date: Fri, 16 Aug 2024 17:28:14 +0000
+MD5Sum:
+  4c36e58ebec48b87fe6a8ed0c00a96eb 232 Release
+  b00a4d98fbd8d8906e030661c8371fe9 862 Release.gpg
+  e471a68d5a030fcc5739642a84522572 1063 main/binary-amd64/Packages.gz
+  759272e04e7e756a760d91034d585581 2344 main/binary-amd64/Packages
+SHA1:
+  ef19bf3756dfddb17108e6d1c09a39b06b4e6562 473 Release
+  9a54dc4d1e593a92558458f849e0b53880b224b4 862 Release.gpg
+  9de3f8f5bee7b827d9e0d9263eb5211179fb7100 1063 main/binary-amd64/Packages.gz
+  74a29a36250f4ff4c5245670749907fd9ba537dc 2344 main/binary-amd64/Packages
+SHA256:
+  d9a1b98482587c28f1786934f0876484ee7c85b453fd678165fe0b9fe4281104 748 Release
+  e6fa8df19b1834fa1e080d97f07dbf220487e8c39d4536684db17e588abf66a6 862 Release.gpg
+  f29aeb3cd4cfc4222c3df487220e419ff288f57f1df249a8069f04ee8d3d5b51 1063 main/binary-amd64/Packages.gz
+  3a493a499c4f0d51c165884f988bb219245e0dbea0bcbec304b87ac3e68c8def 2344 main/binary-amd64/Packages
+SHA512:
+  f276fce2cd3441d30ba94b833dd50ba27791d754b7cd2236a7d22499edfd0a011c70e6b8ecbe0ce19df9dec6f51086434ed4f14e00f1fa1f21c2ba71d026adf8 1119 Release
+  03d3352d8e04bb77131a5939a591bfd85a4aa152f0ad4ba9ceaa9fd13e9df16127de3fe2abcd7bfaffe0aa07199b1404682452bd9e4df5db59d75c39883c8944 862 Release.gpg
+  298bb754bf3099de39801424f64beceb27ceae2b092e751e4606ef8758a6d605c1658b385f67c550107683ef959c37b0f10a3272328c4c93fe0c031fa6fa6f0f 1063 main/binary-amd64/Packages.gz
+  d6112f3d85063a5caf6bed4cbc15a9b7df3b7969d47639892e973a8c9e2f3bb41de38f5f686d76af6f9b45df2d0b7a5b3ef8764b348891f4847fe18cab5026ec 2344 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEnDtVc7hyy97OIXR7RDHmRyO0rd4FAma/jC8THG1haWxAdmlu
+ZWVsc2FpLmNvbQAKCRBEMeZHI7St3smGD/9Y3LEbnm/mlRx7AYrxn8zyp9iXRuSJ
+oEgDJ4yKtanbHx534vUFMZdDIxvEjm3ZyOD3ZPmkqMgs5iMpJUGLj2tgyYd2YEP4
+ervv5vf0PyCs/itQoo+xk8kWGMFGoQFGXdwqRWAtdbx7k+ET/X+8+YmjEgK0Omvl
+pvnvaQ6qynDju0+3aF0YpyIKumgsVVBOpAalsG6TETc8rJoJE95psv84CWle+kSF
+GFqsMhazzvm9iFXedEah77kVfxcc8fqFAxhchBurRL6qOcFGV7dXmbBsbRmcANjD
+vDmp4D0ut88AK+AwPNn5jghBezWziF9OROCSJIHiA9fKtr9KJeR+FuRpdQdhwOx6
+3EowisXrFc4st7b2aub8iscANp42AaYjSrH1KZmX+WrXojjVmhWRKqc6rQ/R/Wbn
+ksACZnQi7x4QCekvbJKCa3+ZOpdAxw8KeT4n49vFT54NVi5LhwLBu+AGufA36TJl
+qHPK9twFZmwErdVfyoKMUM7Uzc5S2jcm1ScNMJtqTTrzOMkbQPI8xEQVh/HD1Sot
+maWi13R1W+wxqludLcue3yjg2zE8/uFmvq80eJYHTqKCWM8M3HyyxgNm+GG/nkz8
+9WDmupkIDNodkGzQs368suM/Tif3qbJR1j0eOOj3TCYk1sz9ZVP4a8AvJdFoA+C+
+VgEKS/XGlMxdfw==
+=zi0p
+-----END PGP SIGNATURE-----
